@@ -56,3 +56,4 @@ pnpm-lock.yaml
 /blueprint.md
 /yarn.lock
 /.yarn
+yarn.lock
