@@ -1,0 +1,9 @@
+{
+    "extends": "./tools/tsconfig",
+    "compilerOptions": {
+        "paths": {
+            "@nativescript-community/motion-activity": ["src/motion-activity"],
+            "@nativescript-community/motion-activity/*": ["src/motion-activity/*"],
+        }
+    }
+}

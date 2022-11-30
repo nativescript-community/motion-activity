@@ -1,0 +1,13 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "../../src/motion-activity",
+        "outDir": "./",
+        "paths": {
+            "tns-core-modules": ["./node_modules/@nativescript/core"],
+            "tns-core-modules/*": ["./node_modules/@nativescript/core/*"]
+        }
+    },
+    "include": ["../../src/motion-activity/**/*", "../../references.d.ts", "../../src/references.d.ts"],
+    "exclude": ["../../src/motion-activity/angular/**"]
+}

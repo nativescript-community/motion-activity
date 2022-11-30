@@ -1,0 +1,50 @@
+{
+    "name": "@nativescript-community/motion-activity",
+    "version": "2.0.3",
+    "description": "NativeScript Range Seek Bar widget",
+    "main": "./index",
+    "sideEffects": false,
+    "typings": "./index.d.ts",
+    "scripts": {
+        "build": "npm run tsc && npm run readme",
+        "build.all": "npm run build && npm run build.angular",
+        "build.angular": "../../node_modules/.bin/ng-packagr -p ../../src/motion-activity/angular/ng-package.json -c ../../src/motion-activity/angular/tsconfig.json",
+        "readme": "../../node_modules/.bin/readme generate -c ../../tools/readme/blueprint.json",
+        "tsc": "../../node_modules/.bin/cpy '**/*.d.ts' '../../packages/motion-activity' --parents --cwd=../../src/motion-activity && ../../node_modules/.bin/tsc -skipLibCheck -d",
+        "clean": "../../node_modules/.bin/rimraf ./*.d.ts ./*.js ./*.js.map"
+    },
+    "nativescript": {
+        "platforms": {
+            "android": "6.0.0",
+            "ios": "6.0.0"
+        }
+    },
+    "keywords": [
+        "NativeScript",
+        "JavaScript",
+        "Android",
+        "iOS",
+        "NativeScript UI",
+        "menu",
+        "nativescript-community",
+        "Angular",
+        "Vue",
+        "Svelte",
+        "React",
+        "preview|https://raw.githubusercontent.com/nativescript-community/motion-activity/master/images/demo-ios.gif|iOS Demo",
+        "preview|https://raw.githubusercontent.com/nativescript-community/motion-activity/master/images/demo-android.gif|Android Demo"
+    ],
+    "author": {
+        "name": "JK",
+        "email": "lexuanhoang2506@gmail.com"
+    },
+    "bugs": {
+        "url": "https://github.com/nativescript-community/motion-activity/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nativescript-community/motion-activity"
+    },
+    "license": "Apache-2.0",
+    "readmeFilename": "README.md"
+}
