@@ -48,10 +48,8 @@ activityRecognition.start();
 
 ### Examples:
 
-- [Basic range-seek-bar](demo-snippets/vue/Basicrange-seek-bar.vue)
-  - A basic sliding range-seek-bar.
-- [All Sides](demo-snippets/vue/AllSides.vue)
-  - An example of range-seek-bars on all sides: left, right, top, bottom.
+- [Basic ](demo-snippets/vue/Basic.vue)
+  - A basic usage example.
 
 {{ load:../../tools/readme/demos-and-development.md }}
 {{ load:../../tools/readme/questions.md }}

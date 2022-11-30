@@ -1,5 +1,4 @@
 {
-    "name": "@nativescript-community/motion-activity",
     "version": "1.0.0",
     "homepage": "https://github.com/nativescript-community/motion-activity#readme",
     "bugs": {
@@ -21,7 +20,7 @@
         "demo.vue.ios": "cd ./demo-vue && ns run ios --no-hmr",
         "postinstall": "npm run setup",
         "publish": "npm run setup && npm run build.all && lerna publish --create-release=github --force-publish",
-        "readme": "node ./tools/readme.js",
+        "readme": "lerna run readme; node ./tools/readme.js",
         "setup": "npm run submodules && ts-patch install",
         "start": "./node_modules/.bin/ntl -A -s 15 -o",
         "submodules": "git submodule update --init",
@@ -54,5 +53,8 @@
     },
     "dependenciesMeta": {
         "@nativescript-community/plugin-seed-tools": {}
-    }
+    },
+    "workspaces": [
+        "packages/*"
+    ]
 }
