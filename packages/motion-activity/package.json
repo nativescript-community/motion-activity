@@ -1,6 +1,6 @@
 {
     "name": "@nativescript-community/motion-activity",
-    "version": "2.0.3",
+    "version": "1.0.0",
     "description": "NativeScript plugin for Motion Activity Detection",
     "main": "./index",
     "sideEffects": false,
