@@ -1,0 +1,11 @@
+{
+    "uses":[
+        "android.app:PendingIntent*",
+        "com.google.android.gms.common.api:GoogleApiClient*",
+        "com.google.android.gms.common.api:Api*",
+        "com.google.android.gms.location:ActivityRecognition*",
+        "com.google.android.gms.location.ActivityRecognition:ActivityRecognitionApi*",
+        "com.google.android.gms.location:ActivityRecognitionResult*",
+        "com.google.android.gms.location:DetectedActivity*"
+    ]
+}
