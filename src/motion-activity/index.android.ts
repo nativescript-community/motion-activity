@@ -75,7 +75,12 @@ export class ActivityRecognition extends ActivityRecognitionBase {
         const api = await this.connectToGooleAPI();
         if (!this.activityReconPendingIntent) {
             const intent = new android.content.Intent(this.context, ActivityTransitionReceiver.class);
-            this.activityReconPendingIntent = android.app.PendingIntent.getBroadcast(this.context, REQUEST_CODE_INTENT_ACTIVITY_TRANSITION, intent, android.app.PendingIntent.FLAG_UPDATE_CURRENT);
+            this.activityReconPendingIntent = android.app.PendingIntent.getBroadcast(
+                this.context,
+                REQUEST_CODE_INTENT_ACTIVITY_TRANSITION,
+                intent,
+                android.app.PendingIntent.FLAG_UPDATE_CURRENT | 0x02000000 /* FLAG_MUTABLE */
+            );
         }
         AActivityRecognition.ActivityRecognitionApi.requestActivityUpdates(api, 0, this.activityReconPendingIntent);
         api.disconnect();
