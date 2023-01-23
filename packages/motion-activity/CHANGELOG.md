@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/nativescript-community/motion-activity/compare/v1.1.2...v1.1.3) (2023-01-23)
+
+
+### Bug Fixes
+
+* **android:** improved native-api-usage ([97b0cf8](https://github.com/nativescript-community/motion-activity/commit/97b0cf8dcb3066d9427bb46e66612c561ea1628f))
+
+
+
+
+
 ## [1.1.2](https://github.com/nativescript-community/motion-activity/compare/v1.1.1...v1.1.2) (2022-12-03)
 
 **Note:** Version bump only for package @nativescript-community/motion-activity
