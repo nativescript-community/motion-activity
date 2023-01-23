@@ -2,7 +2,7 @@
     "name": "@nativescript-community/template-snippet",
     "version": "0.0.1",
     "dependencies": {
-        "@nativescript-community/perms": "2.2.20",
-        "@nativescript-community/motion-activity": "link:../packages/motion-activity"
+        "@nativescript-community/motion-activity": "link:../packages/motion-activity",
+        "@nativescript-community/perms": "2.2.20"
     }
 }
